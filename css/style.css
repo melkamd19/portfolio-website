@@ -564,6 +564,23 @@ section {
     padding: 1rem;
     background-color: #0f172a;
     border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.contact-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+    background-color: #1e293b;
 }
 
 .contact-item i {
